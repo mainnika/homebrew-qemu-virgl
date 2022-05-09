@@ -1,12 +1,12 @@
-class QemuAT202204201 < Formula
+class QemuAT202205091 < Formula
   desc "Emulator for x86 and PowerPC augmented with a power of VirGL"
   homepage "https://www.qemu.org/"
   url "https://code.tokarch.uk/third_party/qemu.git",
     # v7.0.0
     using: :git,
-    revision: "c181d00d4d11aabbf34fe5a100bb5c0113f18705"
+    revision: "2eee6b70805dae611d0908409074a19bd1aadb84"
   
-  version "20220420.1"
+  version "20220509.1"
   license "GPL-2.0-only"
 
   depends_on "libtool" => :build
